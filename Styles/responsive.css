@@ -1,0 +1,306 @@
+@media (min-width: 701px){
+    .hidden-desktop{
+        display: none;
+    }
+}
+
+
+@media (max-width: 700px) {
+
+    .hidden-mobile{
+        display: none;
+    }
+
+    .home-bar{
+        position: fixed;
+        width: 100%;
+    }
+
+
+    .bar{
+        padding: 5px 20px;
+        height: fit-content;
+    }
+
+    .content .hero-img img{
+        width: 300px;
+    }
+
+    #register{
+        font-size: 15px;
+    }
+
+    #login-mobile img{
+        width: 20px;
+    }
+
+    #login-mobile{
+        width: 30px;
+        border-radius: 50%;
+        padding: 25px;
+    }
+
+    .content {
+        display: block;
+        height: 100%;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+
+    .content .home-description{
+        margin-top: 80px;
+    }
+
+    .home-description h1{
+        font-size: 45px;
+    }
+
+    .cookingContent .title{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .food-block a{
+        font-size: 18px;
+    }
+
+    .aboutus-description{
+        height: 100%;
+    }
+
+    .aboutus-description h1{
+        font-size: 45px;
+    }
+
+    .social-medias span{
+        font-size: 10px;
+        margin: 0;
+    }
+
+    .topic-section {
+        font-size: 24px;
+    }
+
+    .topic {
+        width: 95%;
+    }
+
+
+    .interaction {
+        font-size: 20px;
+    }
+
+    .interaction button {
+        width: 160px;
+    }
+
+    .topic a img {
+        max-width: 50%;
+        height: auto;
+    }
+
+    .slogan{
+        height: 150px;
+    }
+
+    #slogan{
+        font-size: 40px;
+    }
+
+    #foodHeroImg{
+        width: 100%;
+        height: 400px;
+        margin-top: 30px;
+    }
+
+    .classification{
+        width: 100%;
+        display: block;
+    }
+
+    .classification p{
+        margin: 10px 0;
+    }
+
+    .preparation{
+        display: block;
+    }
+
+    .ingredients{
+        margin: 0 0 20px 0;
+    }
+
+    .how-to-prep{
+        width: 100%;
+    }
+
+
+    .footer a{
+        font-size: 12px;
+    }
+
+    .social-medias img{
+        width: 20px;
+    }
+
+    #attributes li a{
+        font-size: 15px;
+    }
+
+
+}
+
+@media (max-width: 960px){
+
+    
+    .aboutUsLink{
+        display: none;
+    }
+
+    .home-description{
+        margin: 0;
+    }
+
+    .home-description h2{
+        font-size: 30px;
+    }
+
+    .home-description h1{
+        font-size: 60px;
+    }
+
+    .aboutus-description h1{
+        font-size: 60px;
+    }
+
+    .aboutus-description{
+        width: auto;
+        height: auto;
+    }
+
+    .food-block{
+        width: 350px;
+    }
+
+    .filter-select-by-dish{
+        display: none;
+    }
+
+    .interaction button {
+        display: none;
+    }
+
+    .interaction h2{
+        font-size: 30px;
+    }
+
+    .ingredients{
+        margin: 0 30px;
+    }
+
+}
+
+@media (max-width: 450px){
+    .food-block{
+        width: 300px;
+    }
+
+    .food-block a{
+        font-size: 15px;
+    }
+
+    .food-block a h2{
+        font-size: 20px;
+    }
+
+    .food-block img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .home-description h2{
+        font-size: 20px;
+    }
+
+    .home-description h1{
+        font-size: 40px;
+    }
+
+    .aboutus-description h1{
+        font-size: 40px;
+    }
+
+    .home-description p{
+        font-size: 15px;
+    }
+
+    .aboutus-description p{
+        font-size: 15px;
+    }
+
+    .social-medias span{
+        display: none;
+    }
+
+    #login-mobile{
+        display: none;
+    }
+
+    .topic-section {
+        font-size: 18px;
+    }
+
+    .interaction {
+        font-size: 13px;
+    }
+
+    .interaction button {
+        font-size: 12px;
+        width: 75%;
+        height: 30px;
+    }
+
+    #slogan{
+        font-size: 30px;
+    }
+
+    .classification p{
+        margin: 10px 0;
+        justify-content: left;
+    }
+
+    #foodHeroImg{
+        width: 90%;
+        height: 200px;
+        margin-top: 30px;
+    }
+
+    .ingredients h1{
+        font-size: 20px;
+    }
+
+    .ingredients ul li{
+        font-size: 15px;
+    }
+
+    .how-to-prep h1{
+        font-size: 20px;
+    }
+
+    .how-to-prep p{
+        font-size: 15px;
+    }
+
+    table{
+        margin: 20px 0;
+    }
+
+    table thead, tbody{
+        font-size: 12px;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+}
