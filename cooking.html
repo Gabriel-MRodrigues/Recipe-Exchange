@@ -1,178 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recipe Exchange</title>
-    <link rel="icon" href="Images/Recipe-Exchange-Logo.png">
-    <link rel="stylesheet" href="Styles/style.css">
-    <link rel="stylesheet" href="Styles/cooking.css">
-    <link rel="stylesheet" href="Styles/responsive.css">
-</head>
-<body>
+    <link rel="icon" href="Images/Recipe-Exchange-Logo.png" />
+    <link rel="stylesheet" href="Styles/style.css" />
+    <link rel="stylesheet" href="Styles/cooking.css" />
+    <link rel="stylesheet" href="Styles/responsive.css" />
+  </head>
+  <body>
     <div class="bar home-bar">
-        <a href="index.html" id="home">
-            <img id="logo" src="Images/Recipe-Exchange-Logo.png" alt="Logo">
-            <h1>Recipe Exchange</h1>
-        </a>
-        <nav>
-            <ul>
-                <li class="hidden-mobile filter-select-by-dish"><a href="#ThemedFlavor">Select by Dish</a></li>
-            </ul>
-            <ul>
-                <div class="register">
-                    <li class="hidden-mobile"><a href="login.html"><button id="login"><img src="Images/Profile-2.png" alt="Profile">Login</button></a></li>
-                    <li><a href="signUp.html"><button id="register">Get Started</button></a></li>
-                    <li class="hidden-desktop"><a href="login.html"><button id="login-mobile"><img src="Images/Profile-2.png" alt="Profile"></button></a></li>
-                </div>
-            </ul>
-        </nav>
+      <a href="index.html" id="home">
+        <img id="logo" src="Images/Recipe-Exchange-Logo.png" alt="Logo" />
+        <h1>Recipe Exchange</h1>
+      </a>
+      <nav>
+        <ul>
+          <li class="hidden-mobile filter-select-by-dish">
+            <a href="#ThemedFlavor">Select by Dish</a>
+          </li>
+        </ul>
+        <ul>
+          <div class="register">
+            <li class="hidden-mobile">
+              <a href="login.html"
+                ><button id="login">
+                  <img src="Images/Profile-2.png" alt="Profile" />Login
+                </button></a
+              >
+            </li>
+            <li>
+              <a href="signUp.html"
+                ><button id="register">Get Started</button></a
+              >
+            </li>
+            <li class="hidden-desktop">
+              <a href="login.html"
+                ><button id="login-mobile">
+                  <img src="Images/Profile-2.png" alt="Profile" /></button
+              ></a>
+            </li>
+          </div>
+        </ul>
+      </nav>
     </div>
     <main>
-        <div class="content">
-            <div class="home-description slogan">
-                <h1 id="slogan">Let's keep Cooking!</h1>
-            </div>
-            <div class="hero-img hidden-mobile">
-                <img src="Images/Cooking-Page.png" alt="Picnic">
-            </div>
+      <div class="content">
+        <div class="home-description slogan">
+          <h1 id="slogan">Let's keep Cooking!</h1>
         </div>
-        <div class="cookingContent">
-            <h2 class="title">Discover Our Recipes!</h2>
-            <div class="food-blocks">
-                <div class="food-block">
-                    <a href="chickenWings.html">
-                        <div class="food-img">
-                            <img src="Images/ChickenWings.jpg" alt="Chicken Wings">
-                        </div>
-                        <h2>Chicken Wings</h2>
-                        <p id="prep-time"><img src="Images/clock.png" alt="clock">40 mins</p>
-                        <p class="food-description">
-                            These chicken wings are deliciously seasoned and roasted to a perfect crisp, with a juicy interior and flavorful coating.
-                            Garnished with fresh herbs, they make a mouth-watering appetizer or snack.
-                        </p>
-                        <a href="chickenWings.html" id="SeeMore">See More</a>
-                    </a>
-                </div>
-                <div class="food-block">
-                    <a href="SeafoodPaella.html">
-                        <div class="food-img">
-                            <img src="Images/SeaFood.jpg" alt="Seafood Paella">
-                        </div>
-                        <h2>Seafood Paella</h2>
-                        <p id="prep-time"><img src="Images/clock.png" alt="clock">55 mins</p>
-                        <p class="food-description">
-                            Seafood Paella (Paella de Mariscos) is a vibrant Spanish rice dish packed with fresh seafood, like shrimp, mussels, clams, and squid.
-                            It is a beautiful, aromatic dish that's perfect for sharing and often garnished with fresh parsley and lemon wedges for a bright, zesty finish.
-                        </p>
-                        <a href="SeafoodPaella.html" id="SeeMore">See More</a>
-                    </a>
-                </div>
-                <div class="food-block">
-                    <a href="applePie.html">
-                        <div class="food-img">
-                            <img src="Images/ApplePie.JPG" alt="Apple Pie">
-                        </div>
-                        <h2>Apple Pie</h2>
-                        <p id="prep-time"><img src="Images/clock.png" alt="clock">1h 30m</p>
-                        <p class="food-description">
-                            Apple Pie is a beloved dessert made with tender apples, sugar, and warm spices, all encased in a flaky, golden crust.
-                            This rustic pie is perfect for serving warm with a scoop of ice cream or a dollop of whipped cream.
-                        </p>
-                        <a href="applePie.html" id="SeeMore">See More</a>
-                    </a>
-                </div>
-                <div class="food-block">
-                    <a href="SeafoodPaella.html">
-                        <div class="food-img">
-                            <img src="Images/SeaFood.jpg" alt="Seafood Paella">
-                        </div>
-                        <h2>Seafood Paella</h2>
-                        <p id="prep-time"><img src="Images/clock.png" alt="clock">55 mins</p>
-                        <p class="food-description">
-                            Seafood Paella (Paella de Mariscos) is a vibrant Spanish rice dish packed with fresh seafood, like shrimp, mussels, clams, and squid.
-                            It is a beautiful, aromatic dish that's perfect for sharing and often garnished with fresh parsley and lemon wedges for a bright, zesty finish.
-                        </p>
-                        <a href="SeafoodPaella.html" id="SeeMore">See More</a>
-                    </a>
-                </div>
-                <div class="food-block">
-                    <a href="chickenWings.html">
-                        <div class="food-img">
-                            <img src="Images/ChickenWings.jpg" alt="Chicken Wings">
-                        </div>
-                        <h2>Chicken Wings</h2>
-                        <p id="prep-time"><img src="Images/clock.png" alt="clock">40 mins</p>
-                        <p class="food-description">
-                            These chicken wings are deliciously seasoned and roasted to a perfect crisp, with a juicy interior and flavorful coating.
-                            Garnished with fresh herbs, they make a mouth-watering appetizer or snack.
-                        </p>
-                        <a href="chickenWings.html" id="SeeMore">See More</a>
-                    </a>
-                </div>
-            </div>
-            <button id="discover-button">Load More</button>
+        <div class="hero-img hidden-mobile">
+          <img src="Images/Cooking-Page.png" alt="Picnic" />
         </div>
-        <div class="topic-section" id="ThemedFlavor">
-            <h1>Themed Flavor</h1>
-            <div class="topic">
-                <a href="#">
-                    <div class="interaction">
-                        <h2>Veggies Flavors</h2>
-                        <button id="explore-topic">Explore Recipes</button>
-                    </div>
-                    <img src="Images/Veggies.jpg" alt="Veggies Image">
-                </a>
-            </div>
-            <div class="topic">
-                <a href="#">
-                    <div class="interaction">
-                        <h2>Pastas</h2>
-                        <button id="explore-topic">Explore Recipes</button>
-                    </div>
-                    <img src="Images/Pastas.jpg" alt="Pasta Image">
-                </a>
-            </div>
-            <div class="topic">
-                <a href="#">
-                    <div class="interaction">
-                        <h2>Desserts</h2>
-                        <button id="explore-topic">Explore Recipes</button>
-                    </div>
-                        <img src="Images/Desserts.jpg" alt="Desserts Image">
-                </a>
-            </div>
-            <div class="topic">
-                <a href="#">
-                    <div class="interaction">
-                        <h2>Grilled</h2>
-                        <button id="explore-topic">Explore Recipes</button>
-                    </div>
-                    <img src="Images/Grilled.jpg" alt="Grilled Image">
-                </a>
-            </div>
-            <div class="topic">
-                <a href="#">
-                    <div class="interaction">
-                        <h2>Clean Eating</h2>
-                        <button id="explore-topic">Explore Recipes</button>
-                    </div>
-                    <img src="Images/CleanFood.jpg" alt="Clean Eating Food">
-                </a>
-            </div>
-            <button>View All Recipes</button>
+      </div>
+      <div class="cookingContent">
+        <h2 class="title">Discover Our Recipes!</h2>
+        <div class="food-blocks">
+          <div class="food-block">
+            <a href="chickenWings.html">
+              <div class="food-img">
+                <img src="Images/ChickenWings.jpg" alt="Chicken Wings" />
+              </div>
+              <h2>Chicken Wings</h2>
+              <p id="prep-time">
+                <img src="Images/clock.png" alt="clock" />40 mins
+              </p>
+              <p class="food-description">
+                These chicken wings are deliciously seasoned and roasted to a
+                perfect crisp, with a juicy interior and flavorful coating.
+                Garnished with fresh herbs, they make a mouth-watering appetizer
+                or snack.
+              </p>
+              <a href="chickenWings.html" id="SeeMore">See More</a>
+            </a>
+          </div>
+          <div class="food-block">
+            <a href="SeafoodPaella.html">
+              <div class="food-img">
+                <img src="Images/SeaFood.jpg" alt="Seafood Paella" />
+              </div>
+              <h2>Seafood Paella</h2>
+              <p id="prep-time">
+                <img src="Images/clock.png" alt="clock" />55 mins
+              </p>
+              <p class="food-description">
+                Seafood Paella (Paella de Mariscos) is a vibrant Spanish rice
+                dish packed with fresh seafood, like shrimp, mussels, clams, and
+                squid. It is a beautiful, aromatic dish that's perfect for
+                sharing and often garnished with fresh parsley and lemon wedges
+                for a bright, zesty finish.
+              </p>
+              <a href="SeafoodPaella.html" id="SeeMore">See More</a>
+            </a>
+          </div>
+          <div class="food-block">
+            <a href="applePie.html">
+              <div class="food-img">
+                <img src="Images/ApplePie.JPG" alt="Apple Pie" />
+              </div>
+              <h2>Apple Pie</h2>
+              <p id="prep-time">
+                <img src="Images/clock.png" alt="clock" />1h 30m
+              </p>
+              <p class="food-description">
+                Apple Pie is a beloved dessert made with tender apples, sugar,
+                and warm spices, all encased in a flaky, golden crust. This
+                rustic pie is perfect for serving warm with a scoop of ice cream
+                or a dollop of whipped cream.
+              </p>
+              <a href="applePie.html" id="SeeMore">See More</a>
+            </a>
+          </div>
+          <div class="food-block">
+            <a href="SeafoodPaella.html">
+              <div class="food-img">
+                <img src="Images/SeaFood.jpg" alt="Seafood Paella" />
+              </div>
+              <h2>Seafood Paella</h2>
+              <p id="prep-time">
+                <img src="Images/clock.png" alt="clock" />55 mins
+              </p>
+              <p class="food-description">
+                Seafood Paella (Paella de Mariscos) is a vibrant Spanish rice
+                dish packed with fresh seafood, like shrimp, mussels, clams, and
+                squid. It is a beautiful, aromatic dish that's perfect for
+                sharing and often garnished with fresh parsley and lemon wedges
+                for a bright, zesty finish.
+              </p>
+              <a href="SeafoodPaella.html" id="SeeMore">See More</a>
+            </a>
+          </div>
+          <div class="food-block">
+            <a href="chickenWings.html">
+              <div class="food-img">
+                <img src="Images/ChickenWings.jpg" alt="Chicken Wings" />
+              </div>
+              <h2>Chicken Wings</h2>
+              <p id="prep-time">
+                <img src="Images/clock.png" alt="clock" />40 mins
+              </p>
+              <p class="food-description">
+                These chicken wings are deliciously seasoned and roasted to a
+                perfect crisp, with a juicy interior and flavorful coating.
+                Garnished with fresh herbs, they make a mouth-watering appetizer
+                or snack.
+              </p>
+              <a href="chickenWings.html" id="SeeMore">See More</a>
+            </a>
+          </div>
         </div>
+        <button id="discover-button">Load More</button>
+      </div>
+      <div class="topic-section" id="ThemedFlavor">
+        <h1>Themed Flavor</h1>
+        <div class="topic">
+          <a href="#">
+            <div class="interaction">
+              <h2>Veggies Flavors</h2>
+              <button id="explore-topic">Explore Recipes</button>
+            </div>
+            <img src="Images/Veggies.jpg" alt="Veggies Image" />
+          </a>
+        </div>
+        <div class="topic">
+          <a href="#">
+            <div class="interaction">
+              <h2>Pastas</h2>
+              <button id="explore-topic">Explore Recipes</button>
+            </div>
+            <img src="Images/Pastas.jpg" alt="Pasta Image" />
+          </a>
+        </div>
+        <div class="topic">
+          <a href="#">
+            <div class="interaction">
+              <h2>Desserts</h2>
+              <button id="explore-topic">Explore Recipes</button>
+            </div>
+            <img src="Images/Desserts.jpg" alt="Desserts Image" />
+          </a>
+        </div>
+        <div class="topic">
+          <a href="#">
+            <div class="interaction">
+              <h2>Grilled</h2>
+              <button id="explore-topic">Explore Recipes</button>
+            </div>
+            <img src="Images/grilled.jpg" alt="Grilled Image" />
+          </a>
+        </div>
+        <div class="topic">
+          <a href="#">
+            <div class="interaction">
+              <h2>Clean Eating</h2>
+              <button id="explore-topic">Explore Recipes</button>
+            </div>
+            <img src="Images/CleanFood.jpg" alt="Clean Eating Food" />
+          </a>
+        </div>
+        <button>View All Recipes</button>
+      </div>
     </main>
     <footer class="bar footer">
-        <a href="index.html"><img id="logo" src="Images/Recipe-Exchange-Logo.png" alt="Logo"></a>
-        <div class="social-medias">
-            <a href="https://www.instagram.com/" target="_blank"><img src="Images/instagram.png" alt="Instagram"></a>
-            <a href="https://www.x.com/" target="_blank"><img src="Images/twitter.png" alt="Twitter - X"></a>
-            <a href="https://www.facebook.com/" target="_blank"><img src="Images/facebook.png" alt="Facebook"></a>
-            <a href="https://www.youtube.com/" target="_blank"><img src="Images/youtube.png" alt="Youtube"></a>
-            <span> Copyright &copy; Recipe Exchange</span>
-        </div>
-        <a href="attributes.html" target="_blank">Attributes</a>
+      <a href="index.html"
+        ><img id="logo" src="Images/Recipe-Exchange-Logo.png" alt="Logo"
+      /></a>
+      <div class="social-medias">
+        <a href="https://www.instagram.com/" target="_blank"
+          ><img src="Images/instagram.png" alt="Instagram"
+        /></a>
+        <a href="https://www.x.com/" target="_blank"
+          ><img src="Images/twitter.png" alt="Twitter - X"
+        /></a>
+        <a href="https://www.facebook.com/" target="_blank"
+          ><img src="Images/facebook.png" alt="Facebook"
+        /></a>
+        <a href="https://www.youtube.com/" target="_blank"
+          ><img src="Images/youtube.png" alt="Youtube"
+        /></a>
+        <span> Copyright &copy; Recipe Exchange</span>
+      </div>
+      <a href="attributes.html" target="_blank">Attributes</a>
     </footer>
-</body>
+  </body>
 </html>
