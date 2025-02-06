@@ -1,124 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recipe Exchange</title>
-    <link rel="icon" href="Images/Recipe-Exchange-Logo.png">
-    <link rel="stylesheet" href="Styles/style.css">
-    <link rel="stylesheet" href="Styles/responsive.css">
-</head>
-<body>
+    <link rel="icon" href="Images/Recipe-Exchange-Logo.png" />
+    <link rel="stylesheet" href="Styles/style.css" />
+    <link rel="stylesheet" href="Styles/responsive.css" />
+  </head>
+  <body>
     <div class="bar home-bar">
-        <a href="index.html" id="home">
-            <img id="logo" src="Images/Recipe-Exchange-Logo.png" alt="Logo">
-            <h1>Recipe Exchange</h1>
-        </a>
-        <nav>
-            <ul>
-                <li class="hidden-mobile"><a href="#features">Discover</a></li>
-                <li class="hidden-mobile aboutUsLink"><a href="#AboutUs">About Us</a></li>
-            </ul>
-            <ul>
-                <div class="register">
-                    <li class="hidden-mobile"><a href="login.html"><button id="login"><img src="Images/Profile-2.png" alt="Profile">Login</button></a></li>
-                    <li><a href="signUp.html"><button id="register">Get Started</button></a></li>
-                    <li class="hidden-desktop"><a href="login.html"><button id="login-mobile"><img src="Images/Profile-2.png" alt="Profile"></button></a></li>
-                </div>
-            </ul>
-        </nav>
+      <a href="index.html" id="home">
+        <img id="logo" src="Images/Recipe-Exchange-Logo.png" alt="Logo" />
+        <h1>Recipe Exchange</h1>
+      </a>
+      <nav>
+        <ul>
+          <li class="hidden-mobile"><a href="#features">Discover</a></li>
+          <li class="hidden-mobile aboutUsLink">
+            <a href="#AboutUs">About Us</a>
+          </li>
+        </ul>
+        <ul>
+          <div class="register">
+            <li class="hidden-mobile">
+              <a href="login.html"
+                ><button id="login">
+                  <img src="Images/Profile-2.png" alt="Profile" />Login
+                </button></a
+              >
+            </li>
+            <li>
+              <a href="signUp.html"
+                ><button id="register">Get Started</button></a
+              >
+            </li>
+            <li class="hidden-desktop">
+              <a href="login.html"
+                ><button id="login-mobile">
+                  <img src="Images/Profile-2.png" alt="Profile" /></button
+              ></a>
+            </li>
+          </div>
+        </ul>
+      </nav>
     </div>
     <main>
-        <div class="content">
-            <div class="home-description">
-                <h2>Welcome to</h2>
-                <h1>Recipe Exchange.</h1>
-                <p>We are an online community where food lovers can share their favorite recipes,
-                    discover new dishes, and connect with fellow culinary enthusiasts. Users can post their own recipes,
-                    browse and try others' creations, and leave comments to share their thoughts and tips.
-                    It is a space to inspire and be inspired, whether you're a home cook or a seasoned chef looking to connect
-                    over a shared love for food.
-                </p>
-            </div>
-            <div class="hero-img">
-                <img src="Images/Recipe-Welcome.png" alt="Abstract image for Recipe Exchange">
-            </div>
+      <div class="content">
+        <div class="home-description">
+          <h2>Welcome to</h2>
+          <h1>Recipe Exchange.</h1>
+          <p>
+            We are an online community where food lovers can share their
+            favorite recipes, discover new dishes, and connect with fellow
+            culinary enthusiasts. Users can post their own recipes, browse and
+            try others' creations, and leave comments to share their thoughts
+            and tips. It is a space to inspire and be inspired, whether you're a
+            home cook or a seasoned chef looking to connect over a shared love
+            for food.
+          </p>
         </div>
-        <div class="cookingContent" id="features">
-            <h2 class="title">Here you can find our most famous Recipes!</h2>
-            <div class="food-blocks">
-                <div class="food-block">
-                    <a href="chickenWings.html">
-                        <div class="food-img">
-                            <img src="Images/ChickenWings.jpg" alt="Chicken Wings">
-                        </div>
-                        <h2>Chicken Wings</h2>
-                        <p id="prep-time"><img src="Images/clock.png" alt="clock">40 mins</p>
-                        <p class="discover-description">
-                            These chicken wings are deliciously seasoned and roasted to a perfect crisp, with a juicy interior and flavorful coating.
-                            Garnished with fresh herbs, they make a mouth-watering appetizer or snack.
-                        </p>
-                        <a href="" id="SeeMore">See More</a>
-                    </a>
-                </div>
-                <div class="food-block">
-                    <a href="SeafoodPaella.html">
-                        <div class="food-img">
-                            <img src="Images/SeaFood.jpg" alt="Seafood Paella">
-                        </div>
-                        <h2>Seafood Paella</h2>
-                        <p id="prep-time"><img src="Images/clock.png" alt="clock">55 mins</p>
-                        <p class="food-description">
-                            Seafood Paella (Paella de Mariscos) is a vibrant Spanish rice dish packed with fresh seafood, like shrimp, mussels, clams, and squid.
-                            It is a beautiful, aromatic dish that's perfect for sharing and often garnished with fresh parsley and lemon wedges for a bright, zesty finish.
-                        </p>
-                        <a href="" id="SeeMore">See More</a>
-                    </a>
-                </div>
-                <div class="food-block">
-                    <a href="applePie.html">
-                        <div class="food-img">
-                            <img src="Images/ApplePie.jpg" alt="Apple Pie">
-                        </div>
-                        <h2>Apple Pie</h2>
-                        <p id="prep-time"><img src="Images/clock.png" alt="clock">1h 30m</p>
-                        <p class="discover-description">
-                            Apple Pie is a beloved dessert made with tender apples, sugar, and warm spices, all encased in a flaky, golden crust.
-                            This rustic pie is perfect for serving warm with a scoop of ice cream or a dollop of whipped cream.
-                        </p>
-                        <a href="" id="SeeMore">See More</a>
-                    </a>
-                </div>
-            </div>
-            <a href="cooking.html"><button id="discover-button">Discover</button></a>
+        <div class="hero-img">
+          <img
+            src="Images/Recipe-Welcome.png"
+            alt="Abstract image for Recipe Exchange"
+          />
         </div>
-        <div class="content" id="AboutUs">
-            <div class="hero-img">
-                <img src="Images/AboutUs.png" alt="About us">
-            </div>
-            <div class="aboutus-description">
-                <h1>Recipe Exchange</h1>
-                <p class="aboutus-description">We are a vibrant community where food lovers come together to share, explore, and celebrate the joy of cooking.
-                Our platform is designed to inspire creativity in the kitchen by allowing users to share their favorite recipes,
-                discover new culinary delights, and connect with others who have a passion for food.
-                Whether you're a seasoned chef or a home cook, Recipe Exchange is your go-to space to learn, exchange tips,
-                and build lasting connections over a shared love of great food. Join us in turning every meal into an opportunity
-                for inspiration and connection!
-                </p>
-                <a href="contactUs.html"><button>Contact Us</button></a>
-            </div>
+      </div>
+      <div class="cookingContent" id="features">
+        <h2 class="title">Here you can find our most famous Recipes!</h2>
+        <div class="food-blocks">
+          <div class="food-block">
+            <a href="chickenWings.html">
+              <div class="food-img">
+                <img src="Images/ChickenWings.jpg" alt="Chicken Wings" />
+              </div>
+              <h2>Chicken Wings</h2>
+              <p id="prep-time">
+                <img src="Images/clock.png" alt="clock" />40 mins
+              </p>
+              <p class="discover-description">
+                These chicken wings are deliciously seasoned and roasted to a
+                perfect crisp, with a juicy interior and flavorful coating.
+                Garnished with fresh herbs, they make a mouth-watering appetizer
+                or snack.
+              </p>
+              <a href="" id="SeeMore">See More</a>
+            </a>
+          </div>
+          <div class="food-block">
+            <a href="SeafoodPaella.html">
+              <div class="food-img">
+                <img src="Images/SeaFood.jpg" alt="Seafood Paella" />
+              </div>
+              <h2>Seafood Paella</h2>
+              <p id="prep-time">
+                <img src="Images/clock.png" alt="clock" />55 mins
+              </p>
+              <p class="food-description">
+                Seafood Paella (Paella de Mariscos) is a vibrant Spanish rice
+                dish packed with fresh seafood, like shrimp, mussels, clams, and
+                squid. It is a beautiful, aromatic dish that's perfect for
+                sharing and often garnished with fresh parsley and lemon wedges
+                for a bright, zesty finish.
+              </p>
+              <a href="" id="SeeMore">See More</a>
+            </a>
+          </div>
+          <div class="food-block">
+            <a href="applePie.html">
+              <div class="food-img">
+                <img src="Images/ApplePie.JPG" alt="Apple Pie" />
+              </div>
+              <h2>Apple Pie</h2>
+              <p id="prep-time">
+                <img src="Images/clock.png" alt="clock" />1h 30m
+              </p>
+              <p class="discover-description">
+                Apple Pie is a beloved dessert made with tender apples, sugar,
+                and warm spices, all encased in a flaky, golden crust. This
+                rustic pie is perfect for serving warm with a scoop of ice cream
+                or a dollop of whipped cream.
+              </p>
+              <a href="" id="SeeMore">See More</a>
+            </a>
+          </div>
         </div>
+        <a href="cooking.html"
+          ><button id="discover-button">Discover</button></a
+        >
+      </div>
+      <div class="content" id="AboutUs">
+        <div class="hero-img">
+          <img src="Images/AboutUs.png" alt="About us" />
+        </div>
+        <div class="aboutus-description">
+          <h1>Recipe Exchange</h1>
+          <p class="aboutus-description">
+            We are a vibrant community where food lovers come together to share,
+            explore, and celebrate the joy of cooking. Our platform is designed
+            to inspire creativity in the kitchen by allowing users to share
+            their favorite recipes, discover new culinary delights, and connect
+            with others who have a passion for food. Whether you're a seasoned
+            chef or a home cook, Recipe Exchange is your go-to space to learn,
+            exchange tips, and build lasting connections over a shared love of
+            great food. Join us in turning every meal into an opportunity for
+            inspiration and connection!
+          </p>
+          <a href="contactUs.html"><button>Contact Us</button></a>
+        </div>
+      </div>
     </main>
     <footer class="bar footer">
-        <a href="index.html"><img id="logo" src="Images/Recipe-Exchange-Logo.png" alt="Logo"></a>
-        <div class="social-medias">
-            <a href="https://www.instagram.com/" target="_blank"><img src="Images/instagram.png" alt="Instagram"></a>
-            <a href="https://www.x.com/" target="_blank"><img src="Images/twitter.png" alt="Twitter - X"></a>
-            <a href="https://www.facebook.com/" target="_blank"><img src="Images/facebook.png" alt="Facebook"></a>
-            <a href="https://www.youtube.com/" target="_blank"><img src="Images/youtube.png" alt="Youtube"></a>
-            <span> Copyright &copy; Recipe Exchange</span>
-        </div>
-        <a href="attributes.html" target="_blank">Attributes</a>
+      <a href="index.html"
+        ><img id="logo" src="Images/Recipe-Exchange-Logo.png" alt="Logo"
+      /></a>
+      <div class="social-medias">
+        <a href="https://www.instagram.com/" target="_blank"
+          ><img src="Images/instagram.png" alt="Instagram"
+        /></a>
+        <a href="https://www.x.com/" target="_blank"
+          ><img src="Images/twitter.png" alt="Twitter - X"
+        /></a>
+        <a href="https://www.facebook.com/" target="_blank"
+          ><img src="Images/facebook.png" alt="Facebook"
+        /></a>
+        <a href="https://www.youtube.com/" target="_blank"
+          ><img src="Images/youtube.png" alt="Youtube"
+        /></a>
+        <span> Copyright &copy; Recipe Exchange</span>
+      </div>
+      <a href="attributes.html" target="_blank">Attributes</a>
     </footer>
-</body>
+  </body>
 </html>
